@@ -1,0 +1,18 @@
+! https://app.ynab.com - Limit Distractions
+app.ynab.com##.referral-program
+
+! https://www.reddit.com - Limit Distractions
+www.reddit.com##.right-sidebar
+www.reddit.com##.left-sidebar
+www.reddit.com##.masthead
+reddit.com##:matches-path(/^/$|^/r/[^/]+/?(?:\?.*)?$/) .main
+
+! Removes sign in with google popup
+||accounts.google.com/gsi/*
+
+! https://www.youtube.com - Limit Distractions
+www.youtube.com###secondary
+www.youtube.com###comments
+www.youtube.com###menu
+www.youtube.com###end
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
