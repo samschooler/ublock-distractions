@@ -24,3 +24,7 @@ reddit.com##:matches-path(/^/$|^/r/[^/]+/?(?:\?.*)?$/) .main
 ! https://www.youtube.com - Limit Distractions
 youtube.com###secondary, #comments, #menu, #end
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+! https://instagram.com - Limit Distractions
+instagram.com##a[href="/reels/"]
+||instagram.com/reels/$document
