@@ -19,8 +19,9 @@ www.reddit.com##.left-sidebar
 www.reddit.com##.masthead
 reddit.com##:matches-path(/^/$|^/r/[^/]+/?(?:\?.*)?$/) .main
 
-! Removes sign in with google popup
+! Blocks + removes sign in with google popup
 ||accounts.google.com/gsi/*
+##iframe[src*="accounts.google.com/gsi/iframe"]
 
 ! https://www.youtube.com - Limit Distractions
 www.youtube.com###secondary
