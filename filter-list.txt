@@ -5,27 +5,22 @@
 ! License: https://github.com/samschooler/ublock-distractions/blob/main/LICENSE
 ! Issues: https://github.com/samschooler/ublock-distractions/issues
 ! Expires: 1 day
-! Last modified: 18 Aug 2025 11:43 UTC
-! Version: 2025.0818.1143.29
+! Last modified: 18 Aug 2025 13:43 UTC
+! Version: 2025.0818.1343.29
 ! Syntax: AdBlock
-! Number of entries: 11
+! Number of entries: 7
 !
 ! https://app.ynab.com - Limit Distractions
 app.ynab.com##.referral-program
-
-! https://www.reddit.com - Limit Distractions
-www.reddit.com##.right-sidebar
-www.reddit.com##.left-sidebar
-www.reddit.com##.masthead
-reddit.com##:matches-path(/^/$|^/r/[^/]+/?(?:\?.*)?$/) .main
 
 ! Blocks + removes sign in with google popup
 ||accounts.google.com/gsi/*
 ##iframe[src*="accounts.google.com/gsi/iframe"]
 
+! https://www.reddit.com - Limit Distractions
+reddit.com##.right-sidebar, .left-sidebar, .masthead
+reddit.com##:matches-path(/^/$|^/r/[^/]+/?(?:\?.*)?$/) .main
+
 ! https://www.youtube.com - Limit Distractions
-www.youtube.com###secondary
-www.youtube.com###comments
-www.youtube.com###menu
-www.youtube.com###end
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+youtube.com###secondary, #comments, #menu, #end
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
