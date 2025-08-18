@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Sam's Distractions
 ! Description: A filter list of visual element distractions for myself. Reddit, IG, Youtube, etc. 
-! Homepage: https://github.com/hagezi/dns-blocklists
+! Homepage: https://github.com/samschooler/ublock-distractions
 ! License: https://github.com/samschooler/ublock-distractions/blob/main/LICENSE
 ! Issues: https://github.com/samschooler/ublock-distractions/issues
 ! Expires: 1 day
