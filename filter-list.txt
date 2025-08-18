@@ -27,4 +27,6 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 
 ! https://instagram.com - Limit Distractions
 instagram.com##a[href="/reels/"]
+instagram.com##a[href="/explore/"]
 ||instagram.com/reels/$document
+||instagram.com/explore/$document
