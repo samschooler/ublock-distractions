@@ -5,7 +5,7 @@
 ! License: https://github.com/samschooler/ublock-distractions/blob/main/LICENSE
 ! Issues: https://github.com/samschooler/ublock-distractions/issues
 ! Expires: 1 day
-! Last modified: 30 Nov 2025 13:53 UTC
+! Last modified: 30 Nov 2025 13:54 UTC
 ! Version: 2025.0818.1353.29
 ! Syntax: AdBlock
 ! Number of entries: 13
@@ -30,6 +30,13 @@ instagram.com##a[href="/reels/"]
 instagram.com##a[href="/explore/"]
 ||instagram.com/reels/$document
 ||instagram.com/explore/$document
+
+instagram.com##a[href="/reels/"]
+instagram.com##div:has(> span > div > [href="/reels/"])
+instagram.com##div:has(> div > div[data-pagelet="story_tray"]) > div.html-div:last-child
+instagram.com##nav:has(input[placeholder="Search"]) + div:not(:has(ul))
+instagram.com##div[data-visualcompletion="ignore"]:has(button)
+instagram.com##div[data-pagelet="IGDThreadList"] > div:first-child
 
 ! https://x.com - goto xcancel.com
 x.com##+js(x-to-xcancel)
