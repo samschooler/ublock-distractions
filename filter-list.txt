@@ -8,7 +8,7 @@
 ! Last modified: 30 Nov 2025 13:54 UTC
 ! Version: 2025.1130.1353.29
 ! Syntax: AdBlock
-! Number of entries: 13
+! Number of entries: 19
 !
 ! https://app.ynab.com - Limit Distractions
 app.ynab.com##.referral-program
