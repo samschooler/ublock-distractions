@@ -6,7 +6,7 @@
 ! Issues: https://github.com/samschooler/ublock-distractions/issues
 ! Expires: 1 day
 ! Last modified: 30 Nov 2025 13:54 UTC
-! Version: 2025.0818.1353.29
+! Version: 2025.1130.1353.29
 ! Syntax: AdBlock
 ! Number of entries: 13
 !
